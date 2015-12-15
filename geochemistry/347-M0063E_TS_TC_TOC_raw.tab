@@ -1,0 +1,54 @@
+/* DATA DESCRIPTION:
+Citation:	Expedition 347 Scientists (2014): Carbon and sulphur content (raw data) of IODP Hole 347-M0063E. doi:10.1594/PANGAEA.839511
+Related to:	Andrén, Thomas; Jørgensen, Bo Barker; Cotterill, Carol; Expedition 347 Scientists (2015): Baltic Sea Paleoenvironment. Proceedings of the IODP, Integrated Ocean Drilling Program, doi:10.2204/iodp.proc.347.2015
+Project(s):	Integrated Ocean Drilling Program / International Ocean Discovery Program (IODP) (URI: http://www.iodp.org/)
+Coverage:	LATITUDE: 58.622167 * LONGITUDE: 18.254000
+	DATE/TIME START: 2013-10-17T00:40:00 * DATE/TIME END: 2013-10-19T05:30:00
+	MINIMUM DEPTH, sediment/rock: 8.0 m * MAXIMUM DEPTH, sediment/rock: 92.1 m
+Event(s):	347-M0063E (BSB-9) * LATITUDE: 58.622167 * LONGITUDE: 18.254000 * DATE/TIME START: 2013-10-17T00:40:00 * DATE/TIME END: 2013-10-19T05:30:00 * ELEVATION: -437.1 m * Recovery: 127.68 m * LOCATION: Baltic Sea, Landsort Deep * CAMPAIGN: Exp347 (Baltic Sea Paleoenvironment) * BASIS: Greatship Manisha (URI: http://greatshipglobal.com/) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: Drilling Depth Method (DSF): tag sea floor; Core Depth Method (CSF): let overlap if long. 44 cores, 92.8m drilled
+Parameter(s):	Sample code/label (Sample code/label) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: ODP sample designation (URI: hdl:10013/epic.27914.d001)
+	DEPTH, sediment/rock [m] (Depth) * GEOCODE
+	Depth, composite [mcd] (Depth comp) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html)
+	Volume [cm**3] (Vol) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html)
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: of sampling
+	Sample code/label 2 (Label 2) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: preliminary IGSN
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: of freeze drying
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: of grinding
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: start of measurement
+	Carbon, total [%] (TC) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+	Sulphur, total [%] (TS) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+	Carbon, organic, total [%] (TOC) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	329 data points
+*/
+Sample code/label	Depth [m]	Depth comp [mcd]	Vol [cm**3]	Date (of sampling)	Label 2	Date (of freeze drying)	Date (of grinding)	Date (start of measurement)	TC [%]	TS [%]	TOC [%]
+347-M0063E-5H-1,1-2	8.010	7.310000	10	10.02.2014 17:15	IBCR0347EXJXO01	14.02.2014	16.02.2014	20.02.2014 11:30	2.599	0.919	1.925
+347-M0063E-7H-1,0-2	12.000	10.592605	10	10.02.2014 17:36	IBCR0347EX1YO01	14.02.2014	16.02.2014	20.02.2014 11:32	2.673	1.110	1.721
+347-M0063E-9H-1,1-2	16.010	16.060483	10	10.02.2014 18:07	IBCR0347EXJYO01	14.02.2014	16.02.2014	20.02.2014 11:33	2.210	0.977	1.715
+347-M0063E-11H-1,1-2	20.010	19.663699	10	10.02.2014 18:35	IBCR0347EX1ZO01	14.02.2014	16.02.2014	20.02.2014 11:34	4.247	2.850	2.966
+347-M0063E-11H-2,41-42	21.710	21.363699	10	10.02.2014 18:42	IBCR0347EX6ZO01	14.02.2014	16.02.2014	20.02.2014 11:36	9.284	2.345	7.215
+347-M0063E-12H-1,49-50	22.490	22.872636	10	10.02.2014 19:23	IBCR0347EXNZO01	14.02.2014	16.02.2014	20.02.2014 11:37	7.903	2.060	6.221
+347-M0063E-13H-1,39-40	24.390	24.354629	10	10.02.2014 19:38	IBCR0347EXXZO01	14.02.2014	16.02.2014	20.02.2014 11:39	4.284	1.400	2.911
+347-M0063E-15H-1,12-13	28.120	27.756012	10	10.02.2014 19:30	IBCR0347EXG0P01	14.02.2014	16.02.2014	20.02.2014 11:40	1.233	0.154	1.183
+347-M0063E-15H-2,62-63	29.620	29.256012	10	10.02.2014 20:08	IBCR0347EXC2P01	14.02.2014	16.02.2014	20.02.2014 11:42	0.534	0.093	0.565
+347-M0063E-16H-2,52-53	32.020	31.559550	10	10.02.2014 20:53	IBCR0347EXU3P01	14.02.2014	16.02.2014	20.02.2014 11:43	0.459	0.085	0.392
+347-M0063E-17H-1,19-20	32.190	31.632767	10	10.02.2014 21:06	IBCR0347EX64P01	14.02.2014	16.02.2014	20.02.2014 00:00	0.446		0.363
+347-M0063E-18H-2,46-47	35.920	35.891061	10	10.02.2014 22:07	IBCR0347EX05P01	14.02.2014	16.02.2014	20.02.2014 11:47	0.357	0.099	0.361
+347-M0063E-19H-1,62-63	36.620	36.012283	10	10.02.2014 22:15	IBCR0347EX65P01	14.02.2014	16.02.2014	20.02.2014 12:13	0.528	0.090	0.506
+347-M0063E-20H-2,100-101	40.500	39.638583	10	10.02.2014 22:22	IBCR0347EXD5P01	14.02.2014	16.02.2014	20.02.2014 12:15	0.503	0.091	0.525
+347-M0063E-21H-2,58-59	41.660	42.223987	10	11.02.2014 08:52	IBCR0347EX06P01	14.02.2014	16.02.2014	20.02.2014 12:17	0.647	0.112	0.541
+347-M0063E-22H-2,100-101	44.500	45.492606	10	11.02.2014 09:27	IBCR0347EX86P01	14.02.2014	16.02.2014	20.02.2014 12:18	0.770	0.093	0.558
+347-M0063E-23H-2,91-92	46.410	46.855983	10	11.02.2014 10:12	IBCR0347EXU6P01	14.02.2014	16.02.2014	20.02.2014 12:19	0.619	0.086	0.492
+347-M0063E-24H-1,50-51	46.500	45.702575	10	11.02.2014 10:33	IBCR0347EXY6P01	14.02.2014	16.02.2014	20.02.2014 12:21	0.624	0.098	0.532
+347-M0063E-25H-1,108-109	49.080	48.617944	10	11.02.2014 11:11	IBCR0347EXA7P01	14.02.2014	16.02.2014	20.02.2014 12:22	0.639	0.092	0.558
+347-M0063E-26H-1,77-78	50.770	50.232703	10	11.02.2014 12:08	IBCR0347EX18P01	14.02.2014	16.02.2014	20.02.2014 12:23	0.493	0.092	0.463
+347-M0063E-27H-2,65-66	54.150	53.594697	10	11.02.2014 12:12	IBCR0347EX48P01	14.02.2014	16.02.2014	20.02.2014 12:25	0.571	0.091	0.535
+347-M0063E-28H-2,100-101	56.500	55.165919	10	11.02.2014 12:51	IBCR0347EXL8P01	14.02.2014	16.02.2014	20.02.2014 12:26	0.279	0.079	0.276
+347-M0063E-30H-2,115-116	60.650	59.315919	10	11.02.2014 13:44	IBCR0347EX79P01	14.02.2014	16.02.2014	20.02.2014 12:27	0.272	0.081	0.259
+347-M0063E-31H-2,107-108	62.570	61.235919	6	11.02.2014 14:04	IBCR0347EXF9P01	14.02.2014	16.02.2014	20.02.2014 12:29	0.327	0.073	0.280
+347-M0063E-33H-1,72-73	64.720	63.707468	10	11.02.2014 15:04	IBCR0347EX3AP01	14.02.2014	16.02.2014	20.02.2014 12:31	0.391	0.089	0.262
+347-M0063E-35H-2,77-79	70.270	71.461646	10	11.02.2014 16:09	IBCR0347EX5BP01	14.02.2014	16.02.2014	20.02.2014 12:47	0.246	0.079	0.235
+347-M0063E-37H-2,48-49	73.980	75.425346	10	11.02.2014 17:37	IBCR0347EXKCP01	14.02.2014	16.02.2014	20.02.2014 12:48	0.221	0.086	0.168
+347-M0063E-41H-2,68-69	84.080	84.443032	10	11.02.2014 18:44	IBCR0347EXPDP01	14.02.2014	16.02.2014	20.02.2014 12:49	0.410	0.083	0.155
+347-M0063E-43H-2,48-49	90.480	91.939819	10	12.02.2014 08:40	IBCR0347EXBEP01	14.02.2014	16.02.2014	20.02.2014 12:51	0.275	0.086	0.128
+347-M0063E-44H-1,25.5-26.5	92.055	93.514819	10	12.02.2014 08:24	IBCR0347EXQEP01	14.02.2014	16.02.2014	20.02.2014 12:52	0.136	0.101	0.095

@@ -1,0 +1,23 @@
+/* DATA DESCRIPTION:
+Citation:	Expedition 347 Scientists (2014): Carbon and sulphur content (raw data) of IODP Hole 347-M0060B. doi:10.1594/PANGAEA.839482
+Related to:	Andrén, Thomas; Jørgensen, Bo Barker; Cotterill, Carol; Expedition 347 Scientists (2015): Baltic Sea Paleoenvironment. Proceedings of the IODP, Integrated Ocean Drilling Program, doi:10.2204/iodp.proc.347.2015
+Project(s):	Integrated Ocean Drilling Program / International Ocean Discovery Program (IODP) (URI: http://www.iodp.org/)
+Coverage:	LATITUDE: 56.620067 * LONGITUDE: 11.670483
+	DATE/TIME START: 2013-09-29T21:20:00 * DATE/TIME END: 2013-10-01T00:00:00
+	MINIMUM ELEVATION: -31.2 m * MAXIMUM ELEVATION: -31.2 m
+Event(s):	347-M0060B (BSB-1) * LATITUDE: 56.620067 * LONGITUDE: 11.670483 * DATE/TIME START: 2013-09-29T21:20:00 * DATE/TIME END: 2013-10-01T00:00:00 * ELEVATION: -31.2 m * Recovery: 87.62 m * LOCATION: Baltic Sea, Kattegat * CAMPAIGN: Exp347 (Baltic Sea Paleoenvironment) * BASIS: Greatship Manisha (URI: http://greatshipglobal.com/) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: Drilling Depth Method (DSF): tag sea floor; Core Depth Method (CSF): let overlap if long. 28 cores, 85.7m drilled
+Parameter(s):	Sample code/label (Sample code/label) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: ODP sample designation (URI: hdl:10013/epic.27914.d001)
+	Volume [cm**3] (Vol) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html)
+	Sample code/label 2 (Label 2) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: preliminary IGSN
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: of freeze drying
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: of grinding
+	Date (Date) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * COMMENT: start of measurement
+	Carbon, total [%] (TC) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+	Carbon, inorganic, total [%] (TIC) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+	Carbon, organic, total [%] (TOC) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Element analyser CS, LECO
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	18 data points
+*/
+Sample code/label	Vol [cm**3]	Label 2	Date (of freeze drying)	Date (of grinding)	Date (start of measurement)	TC [%]	TIC [%]	TOC [%]
+347-M0060B-4H-1,31-32	10	IBCR0347EXOFG01	07.02.2014	08.02.2014	14.02.2014 15:28	0.229	0.132	0.169
+347-M0060B-4H-2,31-32	10	IBCR0347EX1FG01	07.02.2014	08.02.2014	14.02.2014 15:30	0.503	0.092	0.500

@@ -1,0 +1,56 @@
+/* DATA DESCRIPTION:
+Citation:	Expedition 347 Scientists (2014): Calculated salinity and elemental ratios of interstitial water of IODP Hole 347-M0065C. doi:10.1594/PANGAEA.839789
+Related to:	Andrén, Thomas; Jørgensen, Bo Barker; Cotterill, Carol; Expedition 347 Scientists (2015): Baltic Sea Paleoenvironment. Proceedings of the IODP, Integrated Ocean Drilling Program, doi:10.2204/iodp.proc.347.2015
+Project(s):	Integrated Ocean Drilling Program / International Ocean Discovery Program (IODP) (URI: http://www.iodp.org/)
+Coverage:	LATITUDE: 55.468067 * LONGITUDE: 15.477067
+	DATE/TIME START: 2013-10-25T11:20:00 * DATE/TIME END: 2013-10-26T00:10:00
+	MINIMUM DEPTH, sediment/rock: 2.6 m * MAXIMUM DEPTH, sediment/rock: 46.3 m
+Event(s):	347-M0065C (BSB-7C) * LATITUDE: 55.468067 * LONGITUDE: 15.477067 * DATE/TIME START: 2013-10-25T11:20:00 * DATE/TIME END: 2013-10-26T00:10:00 * ELEVATION: -84.3 m * Recovery: 48.59 m * LOCATION: Baltic Sea, Bornholm Basin * CAMPAIGN: Exp347 (Baltic Sea Paleoenvironment) * BASIS: Greatship Manisha (URI: http://greatshipglobal.com/) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: Drilling Depth Method (DSF): tag sea floor; Core Depth Method (CSF): let overlap if long. 15 cores, 47.9m drilled
+Parameter(s):	Sample code/label (Sample code/label) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: ODP sample designation (URI: hdl:10013/epic.27914.d001)
+	Sample type (Samp type) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html)
+	DEPTH, sediment/rock [m] (Depth) * GEOCODE
+	Salinity (Sal) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated * COMMENT: Cl-based
+	Sodium/Chlorine ratio [mmol/mol] (Na/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Calcium/Chlorine ratio [mmol/mol] (Ca/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Magnesium/Chlorine ratio [mmol/mol] (Mg/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Potassium/Chlorine ratio [mmol/mol] (K/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Bromide/Chlorine ratio [µmol/mol] (Br/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Boron/Chlorine ratio [µmol/mol] (B/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	287 data points
+*/
+Sample code/label	Samp type	Depth [m]	Sal	Na/Cl [mmol/mol]	Ca/Cl [mmol/mol]	Mg/Cl [mmol/mol]	K/Cl [mmol/mol]	Br/Cl [µmol/mol]	B/Cl [µmol/mol]
+347-M0065C-2H-1,130-140	squeezed sample	3.35	15.84	0.91	0.03	0.11	0.03	1.720	1.480
+347-M0065C-2H-2,130-130	squeezed sample	4.80	15.21	0.87	0.03	0.11	0.03	1.740	1.350
+347-M0065C-3H-1,135-145	squeezed sample	6.70	15.29	0.86	0.04	0.11	0.02	1.770	1.450
+347-M0065C-3H-2,115-115	squeezed sample	7.95	14.64	0.89	0.04	0.10	0.02	1.770	1.240
+347-M0065C-4H-1,130-140	squeezed sample	9.95	13.86	0.84	0.05	0.09	0.02	1.760	1.030
+347-M0065C-4H-2,135-135	squeezed sample	11.45	12.15	0.94	0.07	0.10	0.02	1.760	0.930
+347-M0065C-5H-1,135-145	squeezed sample	13.30	13.19	0.97	0.08	0.10	0.02	1.770	0.720
+347-M0065C-5H-2,140-140	squeezed sample	14.80	11.08	0.88	0.09	0.09	0.01	1.760	0.530
+347-M0065C-6H-1,135-145	squeezed sample	16.60	10.07	0.80	0.12	0.08	0.01	1.770	0.360
+347-M0065C-6H-2,140-140	squeezed sample	18.10	8.76	0.86	0.15	0.08	0.01	1.910	0.320
+347-M0065C-7H-1,130-140	squeezed sample	19.85	7.80	0.70	0.15	0.08	0.00	1.790	0.290
+347-M0065C-7H-2,140-140	squeezed sample	21.40	6.65	0.62	0.17	0.07	0.00	1.810	0.300
+347-M0065C-8H-2,35-45	squeezed sample	23.70	5.49	0.55	0.21	0.08	0.00	1.830	0.400
+347-M0065C-9H-2,70-80	squeezed sample	27.35	3.69	0.46	0.27	0.10	0.00	1.810	0.570
+347-M0065C-10H-2,105-115	squeezed sample	31.00	1.72	0.47	0.44	0.17	0.01	1.990	1.260
+347-M0065C-11H-2,45-55	squeezed sample	33.70	2.35	0.23	0.27	0.11	0.01	1.910	1.000
+347-M0065C-12H-2,65-75	squeezed sample	37.20	1.26	0.29	0.34	0.15	0.01	2.070	1.820
+347-M0065C-13H-1,135-140	squeezed sample	39.68	1.52	0.48	0.26	0.11	0.01	1.930	1.400
+347-M0065C-14H-1,135-140	squeezed sample	42.98	1.40	0.58	0.25	0.10	0.01	2.010	1.770
+347-M0065C-15H-1,135-140	squeezed sample	46.28	1.67	0.66	0.21	0.08	0.01	1.990	2.010
+347-M0065C-2H-1,54-59	Rhizon sample	2.57	15.52	0.87	0.03	0.10	0.02	1.670	1.250
+347-M0065C-3H-1,67-72	Rhizon sample	6.00	14.84	0.87	0.03	0.11	0.02	1.760	1.340
+347-M0065C-3H-2,47-52	Rhizon sample	7.30	14.65	0.90	0.04	0.11	0.02	1.770	1.240
+347-M0065C-4H-1,56-61	Rhizon sample	9.19	12.84	0.90	0.05	0.10	0.02	1.760	1.100
+347-M0065C-5H-1,90-95	Rhizon sample	12.83	12.36	0.90	0.07	0.09	0.01	1.750	0.710
+347-M0065C-5H-2,88-93	Rhizon sample	14.31	11.49	0.83	0.08	0.08	0.01	1.760	0.490
+347-M0065C-6H-1,112-117	Rhizon sample	16.35	10.01	0.90	0.11	0.08	0.01	1.750	0.340
+347-M0065C-6H-2,112-117	Rhizon sample	17.85	8.96	0.91	0.16	0.09	0.01	1.780	0.330
+347-M0065C-7H-1,104-109	Rhizon sample	19.57	7.88	0.83	0.17	0.08	0.00	1.770	0.270
+347-M0065C-8H-1,135-140	Rhizon sample	23.18	5.58	0.65	0.23	0.09	0.00	1.820	0.350
+347-M0065C-9H-1,134-139	Rhizon sample	26.47	4.00						
+347-M0065C-10H-1,92-97	Rhizon sample	29.35	2.78	0.39	0.30	0.11	0.01	1.860	0.610
+347-M0065C-11H-1,134-139	Rhizon sample	33.07							
+347-M0065C-12H-1,65-70	Rhizon sample	35.68	1.26						

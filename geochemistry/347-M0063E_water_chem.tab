@@ -1,0 +1,129 @@
+/* DATA DESCRIPTION:
+Citation:	Expedition 347 Scientists (2014): Calculated salinity and elemental ratios of interstitial water of IODP Hole 347-M0063E. doi:10.1594/PANGAEA.839782
+Related to:	Andrén, Thomas; Jørgensen, Bo Barker; Cotterill, Carol; Expedition 347 Scientists (2015): Baltic Sea Paleoenvironment. Proceedings of the IODP, Integrated Ocean Drilling Program, doi:10.2204/iodp.proc.347.2015
+Project(s):	Integrated Ocean Drilling Program / International Ocean Discovery Program (IODP) (URI: http://www.iodp.org/)
+Coverage:	LATITUDE: 58.622167 * LONGITUDE: 18.254000
+	DATE/TIME START: 2013-10-17T00:40:00 * DATE/TIME END: 2013-10-19T05:30:00
+	MINIMUM DEPTH, sediment/rock: 0.8 m * MAXIMUM DEPTH, sediment/rock: 92.5 m
+Event(s):	347-M0063E (BSB-9) * LATITUDE: 58.622167 * LONGITUDE: 18.254000 * DATE/TIME START: 2013-10-17T00:40:00 * DATE/TIME END: 2013-10-19T05:30:00 * ELEVATION: -437.1 m * Recovery: 127.68 m * LOCATION: Baltic Sea, Landsort Deep * CAMPAIGN: Exp347 (Baltic Sea Paleoenvironment) * BASIS: Greatship Manisha (URI: http://greatshipglobal.com/) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: Drilling Depth Method (DSF): tag sea floor; Core Depth Method (CSF): let overlap if long. 44 cores, 92.8m drilled
+Parameter(s):	Sample code/label (Sample code/label) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: ODP sample designation (URI: hdl:10013/epic.27914.d001)
+	Sample type (Samp type) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html)
+	DEPTH, sediment/rock [m] (Depth) * GEOCODE
+	Salinity (Sal) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated * COMMENT: Cl-based
+	Sodium/Chlorine ratio [mmol/mol] (Na/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Calcium/Chlorine ratio [mmol/mol] (Ca/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Magnesium/Chlorine ratio [mmol/mol] (Mg/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Potassium/Chlorine ratio [mmol/mol] (K/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Bromide/Chlorine ratio [µmol/mol] (Br/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+	Boron/Chlorine ratio [µmol/mol] (B/Cl) * PI: Expedition 347 Scientists (URL: http://www.pangaea.de/ddi?request=iodp-msp/BSBP_staff&title=Expedition+347+Scientists&format=html) * METHOD: Calculated
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	776 data points
+*/
+Sample code/label	Samp type	Depth [m]	Sal	Na/Cl [mmol/mol]	Ca/Cl [mmol/mol]	Mg/Cl [mmol/mol]	K/Cl [mmol/mol]	Br/Cl [µmol/mol]	B/Cl [µmol/mol]
+347-M0063E-1H-1,80-90	squeezed sample	0.85	10.40	0.79	0.02	0.10	0.02	1.700	1.080
+347-M0063E-1H-2,20-30	squeezed sample	1.45	10.78	0.82	0.02	0.10	0.03	1.820	1.070
+347-M0063E-2H-1,115-125	squeezed sample	3.20	10.68	0.89	0.02	0.12	0.03	1.770	1.160
+347-M0063E-2H-2,120-130	squeezed sample	4.75	11.24	0.81	0.02	0.11	0.02	1.890	1.260
+347-M0063E-3H-1,70-80	squeezed sample	4.75	11.49	0.82	0.02	0.12	0.02	1.940	1.410
+347-M0063E-4H-2,67-77	squeezed sample	7.49	12.17	0.83	0.02	0.12	0.03	1.980	1.590
+347-M0063E-5H-1,58-68	squeezed sample	8.63	12.14	0.84	0.02	0.12	0.03	1.970	1.540
+347-M0063E-5H-2,90-90	squeezed sample		12.24	0.83	0.02	0.12	0.03	2.010	1.570
+347-M0063E-6H-1,98-108	squeezed sample	11.03							
+347-M0063E-6H-2,81-81	squeezed sample		12.30					2.080	
+347-M0063E-7H-1,60-70	squeezed sample	12.65	12.38	0.85	0.02	0.12	0.03	2.050	1.640
+347-M0063E-7H-2,121-121	squeezed sample		11.87					2.120	
+347-M0063E-8H-1,90-100	squeezed sample	14.95	12.49	0.80	0.02	0.11	0.03	2.140	1.530
+347-M0063E-8H-2,60-60	squeezed sample		11.55					2.160	
+347-M0063E-9H-1,84-94	squeezed sample	16.89	11.59	0.87	0.02	0.12	0.03	2.200	1.730
+347-M0063E-9H-2,100-100	squeezed sample		11.07	0.88	0.02	0.12	0.03	2.230	1.530
+347-M0063E-10H-1,25-35	squeezed sample	18.30							
+347-M0063E-10H-2,75-75	squeezed sample		10.77	0.86	0.02	0.13	0.03	2.250	1.520
+347-M0063E-11H-1,90-100	squeezed sample	20.95							
+347-M0063E-11H-2,112-112	squeezed sample		9.67	0.86	0.02	0.13	0.03	2.280	1.410
+347-M0063E-12H-1,117-127	squeezed sample	23.22	9.78	0.83	0.03	0.12	0.03	2.290	1.240
+347-M0063E-13H-1,68-78	squeezed sample	24.73	9.19	0.83	0.04	0.12	0.03	2.250	1.090
+347-M0063E-14H-2,65-75	squeezed sample	26.90							
+347-M0063E-15H-1,57-67	squeezed sample	28.62	7.85	0.77	0.06	0.10	0.02	2.190	0.620
+347-M0063E-16H-1,114-124	squeezed sample	31.19	6.46	0.82	0.09	0.10	0.02	2.140	0.490
+347-M0063E-17H-1,111-121	squeezed sample	33.16	6.06	0.78	0.13	0.11	0.01	2.140	0.310
+347-M0063E-18H-1,106-116	squeezed sample	35.11	5.12	0.74	0.15	0.11	0.01	2.120	0.290
+347-M0063E-19H-1,127-137	squeezed sample	37.32	4.14	0.64	0.16	0.11	0.01	2.220	0.260
+347-M0063E-20H-1,135-145	squeezed sample	39.40	3.49	0.58	0.18	0.13	0.01	2.180	0.260
+347-M0063E-21H-1,83-93	squeezed sample	40.88	3.02	0.57	0.21	0.15	0.01	2.240	0.340
+347-M0063E-22H-1,135-140	squeezed sample	43.35	2.46	0.54	0.25	0.17	0.01	2.310	0.540
+347-M0063E-23H-1,135-145	squeezed sample	45.40	1.99	0.53	0.31	0.18	0.01	2.350	0.360
+347-M0063E-24H-1,115-125	squeezed sample	47.20	1.67	0.53	0.35	0.19	0.01	2.420	0.220
+347-M0063E-25H-1,135-145	squeezed sample	49.40	1.25	0.59	0.43	0.22	0.01	2.620	0.240
+347-M0063E-26H-1,135-145	squeezed sample	51.40	0.90	0.69	0.48	0.24	0.01	2.830	0.270
+347-M0063E-27H-1,125-135	squeezed sample	53.30	0.59	0.88	0.58	0.26	0.01	3.360	0.340
+347-M0063E-28H-1,135-145	squeezed sample	55.40	0.55	0.91	0.58	0.26	0.01	3.420	0.400
+347-M0063E-29H-1,135-145	squeezed sample	57.40	0.44	1.09	0.55	0.24	0.01	3.580	0.800
+347-M0063E-30H-1,120-130	squeezed sample	59.25	2.83	0.65	0.18	0.09	0.00	1.700	0.320
+347-M0063E-31H-1,135-145	squeezed sample	61.40	0.25	1.64	0.65	0.29	0.01	4.940	0.950
+347-M0063E-32H-1,135-145	squeezed sample	63.40	0.21	1.80	0.61	0.25	0.02	5.150	1.320
+347-M0063E-33H-1,125-135	squeezed sample	65.30	0.12	2.79	0.83	0.33	0.02	7.400	2.060
+347-M0063E-34H-1,135-145	squeezed sample	67.40	0.37	1.34	0.37	0.14	0.01	3.330	0.850
+347-M0063E-35H-1,135-145	squeezed sample	69.40	1.85	0.64	0.21	0.08	0.00	1.760	0.260
+347-M0063E-36H-1,125-135	squeezed sample	71.30	0.05	5.54	1.10	0.28	0.05	14.320	4.420
+347-M0063E-37H-1,135-145	squeezed sample	73.40	0.05	5.05	0.62	0.14	0.05	12.840	3.930
+347-M0063E-39H-1,135-145	squeezed sample	76.70	0.06	3.46	0.70	0.09	0.03	10.080	3.580
+347-M0063E-40H-1,125-135	squeezed sample	79.90	0.06	3.23	0.48	0.01	0.03	9.170	3.070
+347-M0063E-41H-1,125-135	squeezed sample	83.20	0.03	5.27	0.49	0.00	0.06	16.750	7.500
+347-M0063E-42H-1,135-145	squeezed sample	86.60	0.04	4.74	0.51	0.00	0.04	14.700	6.190
+347-M0063E-43H-1,125-135	squeezed sample	89.80	0.12	1.68	0.39	0.00	0.02	5.830	3.120
+347-M0063E-7H-1,36-41	Rhizon sample	12.39	10.53	0.85	0.02	0.12	0.03	1.970	1.450
+347-M0063E-7H-2,92-97	Rhizon sample	14.20	11.81	0.88	0.02	0.12	0.03	2.100	1.410
+347-M0063E-8H-2,30-35	Rhizon sample	15.74	11.55	0.88	0.02	0.13	0.03	2.160	1.520
+347-M0063E-9H-1,21-26	Rhizon sample	16.24	9.83	0.88	0.02	0.12	0.03	2.050	1.490
+347-M0063E-9H-2,70-75	Rhizon sample	18.03	11.09	0.90	0.02	0.14	0.03	2.210	1.530
+347-M0063E-10H-1,6-6	Rhizon sample	18.06	8.61	0.84	0.02	0.11	0.03	2.020	1.180
+347-M0063E-11H-2,39-44	Rhizon sample	20.42	9.13	0.87	0.02	0.13	0.03	2.150	1.420
+347-M0063E-12H-1,56-61	Rhizon sample	22.59	9.43	0.92	0.02	0.13	0.03	2.220	0.990
+347-M0063E-11H-2,82-87	Rhizon sample	22.15							
+347-M0063E-13H-1,43-48	Rhizon sample	24.46	9.28	0.92	0.04	0.13	0.03	2.280	1.070
+347-M0063E-14H-3,88-93	Rhizon sample	28.06	7.91	0.89	0.07	0.11	0.02	2.220	0.690
+347-M0063E-15H-2,106-111	Rhizon sample	30.09	7.03					2.190	
+347-M0063E-16H-1,88-93	Rhizon sample	30.91	6.84					2.040	
+347-M0063E-17H-1,54-59	Rhizon sample	32.57	6.12	0.80	0.09	0.09	0.01	2.010	0.310
+347-M0063E-18H-1,46-51	Rhizon sample	34.49	6.03	0.77	0.10	0.09	0.01	1.870	0.340
+347-M0063E-19H-1,100-105	Rhizon sample	37.03	4.18	0.67	0.17	0.12	0.01	2.190	0.290
+347-M0063E-20H-1,80-85	Rhizon sample	38.83	3.65	0.66	0.19	0.13	0.01	2.150	0.360
+347-M0063E-21H-1,23-28	Rhizon sample	40.26	4.46	0.72	0.16	0.12	0.01	1.770	0.410
+347-M0063E-22H-1,116-121	Rhizon sample	43.19	2.89	0.56	0.23	0.15	0.01	2.200	0.460
+347-M0063E-23H-1,81-86	Rhizon sample	44.84	2.13	0.58	0.30	0.17	0.01	2.300	0.440
+347-M0063E-24H-1,56-61	Rhizon sample	46.59	3.61	0.70	0.21	0.12	0.01	1.760	0.370
+347-M0063E-25H-1,110-115	Rhizon sample	49.13	2.75					1.890	
+347-M0063E-26H-1,80-85	Rhizon sample	50.83	1.12					2.570	
+347-M0063E-27H-1,65-70	Rhizon sample	52.68	0.66					3.060	
+347-M0063E-28H-1,111-116	Rhizon sample	55.14	1.62					2.040	0.370
+347-M0063E-29H-1,79-84	Rhizon sample	56.82	2.67					1.750	0.340
+347-M0063E-30H-1,59-64	Rhizon sample	58.62	2.71					1.720	0.350
+347-M0063E-31H-1,106-111	Rhizon sample	61.09							
+347-M0063E-32H-1,77-82	Rhizon sample	62.80	3.69					1.600	0.310
+347-M0063E-33H-1,63-86	Rhizon sample	64.75	2.91					1.660	0.340
+347-M0063E-34H-1,109-114	Rhizon sample	67.12	2.95					1.650	0.320
+347-M0063E-35H-1,80-85	Rhizon sample	68.83	3.23					1.620	0.350
+347-M0063E-36H-1,64-69	Rhizon sample	70.67	1.04					2.030	0.640
+347-M0063E-37H-1,110-115	Rhizon sample	73.13	0.16					5.310	6.290
+347-M0063E-39H-1,81-86	Rhizon sample	76.14	0.26					3.620	2.360
+347-M0063E-40H-1,65-70	Rhizon sample	79.28	0.08					8.480	7.570
+347-M0063E-41H-1,99-104	Rhizon sample	82.92	0.10					6.870	6.510
+347-M0063E-42H-1,80-85	Rhizon sample	86.03	0.12					5.670	5.640
+347-M0063E-43H-1,65-70	Rhizon sample	89.18	0.13					5.440	5.160
+347-M0063E-44H-1,63-68	Rhizon sample	92.46	0.50					2.220	
+347-M0063E-21H-2,10-15	Rhizon sample	41.21	2.77	0.66	0.25	0.17	0.01	2.250	0.520
+347-M0063E-22H-2,70-75	Rhizon sample	44.23	2.34	0.70	0.31	0.19	0.01	2.250	0.530
+347-M0063E-23H-2,7-12	Rhizon sample	45.60	1.74	0.62	0.35	0.19	0.01	2.370	0.470
+347-M0063E-24H-2,120-125	Rhizon sample	48.73	1.26	0.69	0.43	0.21	0.01	2.580	0.450
+347-M0063E-25H-2,40-45	Rhizon sample	49.93	1.18	0.63	0.43	0.20	0.01	2.590	0.380
+347-M0063E-26H-2,130-135	Rhizon sample	52.83	0.85					2.720	0.520
+347-M0063E-27H-2,35-40	Rhizon sample	53.88	4.67					1.610	0.250
+347-M0063E-28H-2,70-75	Rhizon sample	56.23	0.69					2.850	0.670
+347-M0063E-29H-2,90-95	Rhizon sample	58.43	0.45					3.370	1.100
+347-M0063E-30H-2,110-115	Rhizon sample	60.63	0.46					3.300	1.540
+347-M0063E-31H-2,60-65	Rhizon sample	62.13	0.31					3.980	1.290
+347-M0063E-32H-2,102-107	Rhizon sample	64.55	0.28					4.010	1.660
+347-M0063E-33H-2,95-100	Rhizon sample	66.48	0.25					4.000	2.020
+347-M0063E-34H-2,70-75	Rhizon sample	68.23	0.47					2.820	1.110
+347-M0063E-35H-2,90-95	Rhizon sample	70.43	0.14					5.790	3.310
+347-M0063E-36H-2,93-93	Rhizon sample	72.43	0.25					3.850	2.110
