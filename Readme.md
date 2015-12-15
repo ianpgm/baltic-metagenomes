@@ -1,3 +1,3 @@
 This repository contains all code and commands necessary to reproduce the majority of plots in the paper tentatively titled "Microbes in the deep Baltic subseafloor are adapted to its diverse set of habitats" by Ian P.G. Marshall, Søren M. Karst, Per H. Nielsen, and Bo B. Jørgensen. If you have questions please contact Ian at ianpgm at bios dot au dot dk.
 
-Code is written in [the Julia programming language](http://www.julia-lang.com). The best place to start is the file `figure_plotting.jl`.
+Code is written in [the Julia programming language](http://www.julialang.org). The best place to start is the file `figure_plotting.jl`.
