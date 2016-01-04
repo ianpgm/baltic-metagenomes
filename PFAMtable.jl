@@ -83,7 +83,7 @@ function plotcorrelation(modelnames,rpoB_eq_table,parameter,metadata_table)
     end
     
     #Plotting all of that data together
-    plot(all_data_to_plot, x=:value,y=:param, color=:PFAM_full,
+    plot(all_data_to_plot, x=:param,y=:value, color=:PFAM_full,
     Theme(default_color=color(colorant"black"),
     panel_stroke=color(colorant"black"),
     grid_color=color(colorant"gray"),
@@ -94,8 +94,8 @@ function plotcorrelation(modelnames,rpoB_eq_table,parameter,metadata_table)
     key_label_font="Helvetica",
     minor_label_color=color(colorant"black"),
     key_position=:bottom),
-    Guide.xlabel("rpoB equivalents"), 
-    Guide.ylabel(string(parameter))
+    Guide.xlabel(string(parameter)), 
+    Guide.ylabel("rpoB equivalents")
     #Guide.annotation(compose(context(), text(rpoB_eq,metadata_subset,sample_names)))
     )
 end

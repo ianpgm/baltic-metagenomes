@@ -111,3 +111,30 @@ atp_plot = plot(ATPsynt_ion, y=:ATP_c_Na, x=:sample, Geom.bar(),
 
 draw(SVG("atp_ion.svg",5inch,4inch), atp_plot)
 
+#Redoing figures for paper V2 - changed axes in correlation plots
+
+#Figure 3 plotting commands
+
+methane_correlation = plotcorrelation(["MCR_alpha"],Baltic_rpoB_eq,:CH4_mM,metadata)
+draw(SVG("../methane_correlation_V2.svg",5inch,4inch), methane_correlation)
+
+#Figure 4 plotting commands
+
+energy_correlation = plotcorrelation(["POR","PFL-like","ETF","CdhC"],Baltic_rpoB_eq,:TOC_pc,metadata)
+draw(SVG("../energy_correlation_V2.svg",5inch,4inch), energy_correlation)
+
+#Figure 5 plotting commands
+
+ironsulfur_correlation = plotcorrelation(["Fer4"],Baltic_rpoB_eq,:TOC_pc,metadata)
+draw(SVG("../ironsulfur_correlation_V2.svg",5inch,4inch), ironsulfur_correlation)
+
+#Figure 6 plotting commands
+
+salinity_correlation = plotcorrelation(["Na_H_antiporter","OpuAC","Dehalogenase"],Baltic_rpoB_eq,:Salinity,metadata)
+draw(SVG("../salinity_correlation_V2.svg",5inch,4inch), salinity_correlation)
+
+#Figure 7 plotting commands
+
+mutation_correlation = plotcorrelation(["DNA_mis_repair"],Baltic_rpoB_eq,:TOC_pc,metadata)
+draw(SVG("../mutation_correlation_V2.svg",5inch,4inch), mutation_correlation)
+
