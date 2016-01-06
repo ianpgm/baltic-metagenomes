@@ -38,12 +38,12 @@ function reads_to_rpob_equiv(pfam_df)
 	
 	#Calculate RpoB equivalents for every PFAM model in your dataset
 	rpoB_table_output = DataFrame(PFAM_Model = [])
-	for colnum in 2:size(PFAM_table)[2]
+	for colnum in 2:size(pfam_df)[2]
 		rpoB_table_output[names(pfam_df)[colnum]] = []
 	end
 	for rownum in 1:size(pfam_df)[1]
 		model_name = pfam_df[rownum,:PFAM_Model]
-		readnums = Array(pfam_df[rownum,2:size(PFAM_table)[2]])
+		readnums = Array(pfam_df[rownum,2:size(pfam_df)[2]])
 		pfam_length = float(PFAM_lengths[model_name])
 		reads_per_aa = []
 		for readnum in readnums
@@ -54,7 +54,7 @@ function reads_to_rpob_equiv(pfam_df)
 			push!(RpoB_equivalents, reads / RpoB_reads_per_aa[i])
 		end
 		newrow = DataFrame(PFAM_Model = model_name)
-		for colnum in 2:size(PFAM_table)[2]
+		for colnum in 2:size(pfam_df)[2]
 			newrow[names(pfam_df)[colnum]] = RpoB_equivalents[colnum-1]
 		end
 		rpoB_table_output = vcat(rpoB_table_output,newrow)
@@ -172,6 +172,20 @@ end
 function ice_vs_holocene(modelname)
 	holocene = vec(Array(Baltic_rpoB_eq[Baltic_rpoB_eq[:PFAM_Model] .== modelname,[:x59E_13_B,:x63E_6_A,:x63E_6_B,:x65C_4,:x65C_4_replicate]]))
 	ice_age = vec(Array(Baltic_rpoB_eq[Baltic_rpoB_eq[:PFAM_Model] .== modelname,[:x59E_21,:x59E_25,:x60B_9,:x60B_9_replicate,:x60B_13,:x60B_28,:x63E_24,:x65C_10]]))
+	new_holocene = Float64[]
+	for item in holocene
+		push!(new_holocene, item)
+	end
+	new_ice_age = Float64[]
+	for item in ice_age
+		push!(new_ice_age, item)
+	end
+	return MannWhitneyUTest(new_holocene, new_ice_age)
+end
+
+function ice_vs_holocene_noreps(modelname)
+	holocene = vec(Array(Baltic_rpoB_eq_noreps[Baltic_rpoB_eq_noreps[:PFAM_Model] .== modelname,[:x59E_13_B,:x63E_6,:x65C_4]]))
+	ice_age = vec(Array(Baltic_rpoB_eq_noreps[Baltic_rpoB_eq_noreps[:PFAM_Model] .== modelname,[:x59E_21,:x59E_25,:x60B_9,:x60B_13,:x60B_28,:x63E_24,:x65C_10]]))
 	new_holocene = Float64[]
 	for item in holocene
 		push!(new_holocene, item)
