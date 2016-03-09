@@ -7,3 +7,7 @@ Baltic_rpoB_eq_noreps_rowsamples = t(Baltic_rpoB_eq_noreps)
 library(vegan)
 
 PCA <- rda(Baltic_rpoB_eq_noreps_rowsamples)
+
+pdf(file="PCA.pdf", width=7, height=7)
+biplot(PCA, display="sites")
+dev.off()

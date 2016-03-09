@@ -1,0 +1,60 @@
+Level	Taxonpath	Taxon	59E-13-B	59E-21	59E-25	60B-9-replicate	60B-9	60B-13	60B-28	63E-6-A	63E-6-B	63E-24	65C-4-replicate	65C-4	65C-10
+phylum	root;Cellular organisms;Archaea;Ancient Archaeal Group(AAG)	Ancient Archaeal Group(AAG)	0	0	0	0	0	0	0	0	1	0	0	0	0
+phylum	root;Cellular organisms;Archaea;Crenarchaeota	Crenarchaeota	0	3	0	31	31	231	16	14	11	10	5	7	7
+phylum	root;Cellular organisms;Archaea;Thaumarchaeota	Thaumarchaeota	0	5	0	18	26	52	14	16	14	2	3	3	4
+phylum	root;Cellular organisms;Archaea;Euryarchaeota	Euryarchaeota	6	35	7	18	24	11	0	30	8	41	3	4	6
+phylum	root;Cellular organisms;Bacteria;JL-ETNP-Z39	JL-ETNP-Z39	0	0	0	3	2	0	0	0	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Hyd24-12	Hyd24-12	0	0	0	0	0	0	0	0	0	0	0	1	0
+phylum	root;Cellular organisms;Bacteria;Candidate division SPAM	Candidate division SPAM	0	0	0	0	0	0	0	0	1	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Caldiserica	Caldiserica	0	4	0	0	0	0	0	0	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division TM6	Candidate division TM6	0	0	0	0	0	0	0	2	8	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division WS3	Candidate division WS3	0	0	0	3	3	4	0	4	1	1	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division AC1 (TA06)	Candidate division AC1 (TA06)	0	5	0	5	4	0	0	3	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division OP11	Candidate division OP11	0	1	0	0	0	0	0	1	0	0	0	0	2
+phylum	root;Cellular organisms;Bacteria;BHI80-139	BHI80-139	0	0	0	2	2	23	18	1	0	1	0	0	0
+phylum	root;Cellular organisms;Bacteria;Fibrobacteres	Fibrobacteres	0	0	0	0	0	0	0	1	2	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division OP3	Candidate division OP3	0	0	0	0	0	2	0	0	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate Division Caldithrix	Candidate Division Caldithrix	0	0	0	0	0	3	0	1	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Thermotogae	Thermotogae	0	0	0	0	0	0	0	0	0	0	0	0	3
+phylum	root;Cellular organisms;Bacteria;Candidate division OP9	Candidate division OP9	15	41	0	9	8	12	6	28	36	0	10	9	2
+phylum	root;Cellular organisms;Bacteria;Candidate division BRC1	Candidate division BRC1	0	0	1	1	1	6	0	3	1	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Elusimicrobia	Elusimicrobia	0	0	0	0	0	0	0	2	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Gemmatimonadetes	Gemmatimonadetes	0	0	0	0	0	1	0	1	1	1	0	0	2
+phylum	root;Cellular organisms;Bacteria;Armatimonadetes	Armatimonadetes	0	5	0	5	6	2	0	1	3	33	0	0	29
+phylum	root;Cellular organisms;Bacteria;Candidate division TM7	Candidate division TM7	0	0	0	0	0	0	0	0	0	0	0	0	1
+phylum	root;Cellular organisms;Bacteria;Chlorobi	Chlorobi	0	0	1	0	0	0	0	1	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Spirochaetes	Spirochaetes	0	0	3	1	1	12	0	3	1	4	0	1	6
+phylum	root;Cellular organisms;Bacteria;Lentisphaerae	Lentisphaerae	0	1	0	0	0	0	0	4	1	0	1	2	0
+phylum	root;Cellular organisms;Bacteria;Candidate Division OP8	Candidate Division OP8	0	15	9	15	17	73	15	3	0	0	1	1	10
+phylum	root;Cellular organisms;Bacteria;RF3	RF3	0	0	0	0	0	0	0	1	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Chlamydiae	Chlamydiae	0	0	0	0	0	0	0	3	1	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;BD1-5	BD1-5	0	0	0	0	0	0	0	1	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Nitrospirae	Nitrospirae	0	1	0	13	11	19	16	5	8	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Deinococcus-Thermus	Deinococcus-Thermus	7	0	0	1	1	1	0	9	2	3	4	2	0
+phylum	root;Cellular organisms;Bacteria;Tenericutes	Tenericutes	0	0	0	0	0	0	0	0	0	0	0	0	1
+phylum	root;Cellular organisms;Bacteria;SAR406 clade(Marine group A)	SAR406 clade(Marine group A)	0	0	0	2	1	2	5	0	0	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Verrucomicrobia	Verrucomicrobia	0	0	0	0	0	0	0	2	4	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Candidate division OD1	Candidate division OD1	0	4	0	2	2	0	10	3	5	2	0	0	0
+phylum	root;Cellular organisms;Bacteria;Fusobacteria	Fusobacteria	0	0	0	2	1	1	3	0	2	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Firmicutes	Firmicutes	0	3	3	5	5	4	0	6	3	0	2	1	6
+phylum	root;Cellular organisms;Bacteria;Actinobacteria	Actinobacteria	0	24	24	14	15	21	5	22	17	19	3	3	38
+phylum	root;Cellular organisms;Bacteria;Bacteroidetes	Bacteroidetes	0	3	2	3	2	1	0	6	5	4	0	1	3
+phylum	root;Cellular organisms;Bacteria;Cyanobacteria	Cyanobacteria	7	0	0	0	0	0	0	3	6	0	0	0	0
+phylum	root;Cellular organisms;Bacteria;Chloroflexi	Chloroflexi	1	39	17	274	292	463	50	51	48	3	0	0	35
+phylum	root;Cellular organisms;Bacteria;Planctomycetes	Planctomycetes	2	8	3	42	43	50	3	75	81	13	3	4	4
+phylum	root;Cellular organisms;Bacteria;Acidobacteria	Acidobacteria	0	1	0	8	9	6	0	2	5	3	0	0	9
+phylum	root;Cellular organisms;Bacteria;Proteobacteria	Proteobacteria	10	43	30	44	51	110	2	47	55	47	9	9	153
+phylum	root;Cellular organisms;Eukaryota;Plastid;Cyanobacteria (Plastid)	Cyanobacteria (Plastid)	0	0	0	0	0	0	0	4	6	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Plastid;stramenopiles (Plastid)	stramenopiles (Plastid)	0	0	0	0	0	0	0	9	7	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Plastid;Viridiplantae (Plastid);Streptophyta (Plastid)	Streptophyta (Plastid)	0	1	0	0	0	5	0	0	0	0	0	0	2
+phylum	root;Cellular organisms;Eukaryota;Mitochondrion;Viridiplantae (Mitochondrion);Streptophyta (Mitochondrion)	Streptophyta (Mitochondrion)	0	0	0	0	0	0	0	1	0	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Rhizaria;Cercozoa	Cercozoa	0	0	0	0	0	0	0	2	1	1	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Viridiplantae;Chlorophyta	Chlorophyta	0	0	0	0	0	0	0	2	2	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Viridiplantae;Streptophyta	Streptophyta	0	0	0	0	0	2	0	0	0	5	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;stramenopiles;Bacillariophyta	Bacillariophyta	0	0	0	0	0	0	0	16	10	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;stramenopiles;Eustigmatophyceae	Eustigmatophyceae	0	0	0	0	0	0	0	0	0	2	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Fungi;Dikarya;Basidiomycota	Basidiomycota	0	0	0	5	5	0	0	1	0	1	0	0	1
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Alveolata;Ciliophora	Ciliophora	0	0	0	0	0	0	0	2	0	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Alveolata;Dinophyceae	Dinophyceae	4	0	0	1	1	0	0	4	1	0	0	0	0
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Metazoa;Arthropoda	Arthropoda	0	0	0	0	0	0	0	0	0	0	0	0	3
+phylum	root;Cellular organisms;Eukaryota;Nucleus;Metazoa;Chordata	Chordata	0	5	0	1	1	3	0	1	1	0	0	0	0

@@ -2,6 +2,7 @@ using DataFrames
 using GLM
 using Gadfly
 using Compose
+using StatsBase
 
 function tabdict(filename)
 	desc_table = Dict()
@@ -149,6 +150,104 @@ function plotmodel(modelnames, rpoB_eq_table, reads_table, sample_names)
     )
 end
 
+function plotmodel_reorder(modelnames, rpoB_eq_table, reads_table, sample_names_noreps)
+    data_to_plot = []
+    key_labels =[]
+
+    #Getting data out of the big table and putting it into a small data frame using the melt command to pivot that dataframe
+    for (i, modelname) in enumerate(modelnames)
+        single_model = melt(rpoB_eq_table[rpoB_eq_table[:PFAM_Model] .== modelname, :], :PFAM_Model)
+        single_model_reads = melt(reads_table[reads_table[:PFAM_Model] .== modelname, :], :PFAM_Model)
+        single_reads = []
+        for readnum in single_model_reads[:value]
+            push!(single_reads,string(readnum))
+        end
+        single_model[:reads] = single_reads
+        single_model[:sample] = sample_names_noreps
+    	
+		single_model_reordered = single_model[[2,3,4,5,6,7,10,13,12,11,9,8,1],:]
+		
+		relative_plot_position = 1:length(sample_names)
+		relative_plot_position = relative_plot_position + 0.5 - i*(1/length(modelnames))
+    	single_model_reordered[:read_plot_pos] = relative_plot_position
+		
+		print(single_model_reordered)
+		push!(data_to_plot, single_model_reordered)
+    	push!(key_labels, PFAM_desc_table[modelname])
+	end
+    
+	
+
+
+    all_data_to_plot = data_to_plot[1]
+    if length(data_to_plot) > 1
+        for i in 2:length(data_to_plot)
+            all_data_to_plot = vcat(all_data_to_plot, data_to_plot[i])
+        end
+    end
+    
+    #plotting
+    modelplot = plot(all_data_to_plot, x=:value,y=:sample, colour=:PFAM_Model, Geom.bar(position=:dodge,orientation=:horizontal),
+    Guide.ylabel(""),
+    Guide.xlabel("rpoB equivalents"),
+    	Theme(bar_highlight=color(colorant"black"),
+    	key_position=:bottom,
+    	default_color=color(colorant"black"),
+    	panel_stroke=color(colorant"black"),
+    	grid_color=color(colorant"gray"),
+    	major_label_font="Helvetica",
+    	major_label_color=color(colorant"black"),
+    	key_title_color=color(colorant"white"),
+    	minor_label_font="Helvetica",
+    	key_label_font="Helvetica",
+    	minor_label_color=color(colorant"black"),
+		point_label_font_size=6pt),
+	Guide.annotation(compose(context(),
+    text(all_data_to_plot[:value]+0.01,all_data_to_plot[:read_plot_pos],all_data_to_plot[:reads],[hleft])))
+    )
+end
+
+
+function plot_single_model_reorder(modelname, rpoB_eq_table, reads_table, sample_names)
+
+    #Getting data out of the big table and putting it into a small data frame using the melt command to pivot that dataframe
+    single_model = melt(rpoB_eq_table[rpoB_eq_table[:PFAM_Model] .== modelname, :], :PFAM_Model)
+    single_model_reads = melt(reads_table[reads_table[:PFAM_Model] .== modelname, :], :PFAM_Model)[:value]
+    single_model[:reads] = map(string, single_model_reads)
+    single_model[:sample] = sample_names_noreps
+   	
+	single_model_reordered = single_model[[2,3,4,5,6,8,10,9,7,1],:]
+	single_model_reordered[:sample_type] = ["glacial","glacial","glacial","glacial","glacial","glacial","glacial","Holocene","Holocene","Holocene"]
+	
+	relative_plot_position = vec(1:length(sample_names_noreps)) -0.5
+   	single_model_reordered[:read_plot_pos] = relative_plot_position    
+	    
+    #plotting
+    modelplot = plot(single_model_reordered, x=:value,y=:sample, colour=:sample_type, Geom.bar(position=:dodge,orientation=:horizontal),
+    Scale.x_continuous(minvalue=0, maxvalue=2),
+	Guide.ylabel(""),
+    Guide.xlabel("Gene abundance (rpoB equivalents)"),
+    	Theme(bar_highlight=color(colorant"black"),
+    	key_position=:bottom,
+    	default_color=color(colorant"black"),
+    	panel_stroke=color(colorant"black"),
+    	grid_color=color(colorant"gray"),
+    	major_label_font="Helvetica",
+    	major_label_color=color(colorant"black"),
+    	key_title_color=color(colorant"white"),
+    	minor_label_font="Helvetica",
+    	key_label_font="Helvetica",
+    	minor_label_color=color(colorant"black"),
+		point_label_font_size=6pt),
+	Guide.annotation(compose(context(),
+    text(single_model_reordered[:value]+0.01,single_model_reordered[:read_plot_pos],single_model_reordered[:reads],[hleft])))
+    )
+end
+
+
+
+
+
 function comparemodel(model1,model2,rpoB_eq_table)
 	comparison_array = []
 	for i in 2:size(rpoB_eq_table)[2]
@@ -167,6 +266,16 @@ function correlation(modelname,rpoB_eq_table,parameter,metadata_table)
      single_model = melt(rpoB_eq_table[rpoB_eq_table[:PFAM_Model] .== modelname, :], :PFAM_Model)
      single_model[:param] = metadata_table[parameter]
     return cor(single_model[:param],single_model[:value])
+end
+
+function spearman_correlation(modelname,rpoB_eq_table,parameter,metadata_table)
+	single_model = melt(rpoB_eq_table[rpoB_eq_table[:PFAM_Model] .== modelname, :], :PFAM_Model)
+    single_model[:param] = metadata_table[parameter]
+	x = vec(single_model[:param])
+	print(x)
+	y = convert(Array{Float64,1},single_model[:value])
+	print(y)
+	return corspearman(x,y)
 end
 
 function ice_vs_holocene(modelname)
